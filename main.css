@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, sans-serif ;
+}
+
+.navbar{
+    background-color: #32a62a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5ce141;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-frota .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e6fff3;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+#sobre-a-loja, #frota {
+    background-color: #e1f5d3;
+}
+
+.text-colored {
+    color: #32a62a;
+}
+
+.nav-frota .nav-link.active,
+#fale-conosco button {
+    background-color: #32a62a;
+    color: #fff;
+}
+
+.nav-frota .nav-link:hover {
+    color: #32a62a;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

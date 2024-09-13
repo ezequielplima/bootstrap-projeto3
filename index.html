@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="fw-bold text-start navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="fw-bold text-start navbar-brand m-0 section-title">Premium car</h1>
+            <button class="fw-bold text-start navbar-toggler" data-bs-toggle="collapse"
+                data-bs-target="#menu-navegacao">
+                <span class="fw-bold text-start navbar-toggler-icon"></span>
+            </button>
+            <nav class="fw-bold text-start navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="fw-bold text-start nav nav-pills d-block d-md-flex">
+                    <li class="fw-bold text-start nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="fw-bold text-start nav-link text-colored">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="fw-bold text-start nav-item fw-bold">
+                        <a href="#categoria" class="fw-bold text-start nav-link text-colored">
+                            <i class="bi bi-truck"></i>
+                            Categoria
+                        </a>
+                    </li>
+                    <li class="fw-bold text-start nav-item fw-bold">
+                        <a href="#frota" class="fw-bold text-start nav-link text-colored">
+                            <i class="bi bi-car-front-fill"></i>
+                            Frota
+                        </a>
+                    </li>
+                    <li class="fw-bold text-start nav-item fw-bold">
+                        <a href="#fale-conosco" class="fw-bold text-start nav-link text-colored">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/haval.jpg" alt="Carros">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/van.avif" alt="Carros">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/esportivo.jpeg" alt="Carros">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+    </div>
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/patio.jpg" class="d-block w-100 rounded" alt=" Foto do espaço interno">
+                </div>
+                <div class="col-md-7 mt-3 mt-md-0">
+                    <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, iste necessitatibus
+                        totam
+                        deserunt
+                        delectus ipsum laboriosam nobis natus consequuntur est nostrum, eius quae quos, aut
+                        facere
+                        enim
+                        nihil officia veritatis.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus accusamus, eius
+                        eum incidunt impedit rem quaerat officiis modi ut quibusdam, in veniam doloribus
+                        necessitatibus laudantium asperiores dolor, voluptatum pariatur!
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic facilis modi voluptas odio
+                        impedit, ipsum nam dolorum quia ducimus beatae perferendis adipisci doloremque
+                        accusantium, delectus, suscipit optio aliquid vitae officia.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="categoria" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span class="text-colored">Categorias</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/aston-martin-valour-4.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-car-front-fill"></i>
+                            Super Luxo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam quidem voluptates
+                            accusantium, delectus dolores deserunt sed. Veritatis suscipit iure dignissimos molestias,
+                            cum eaque nisi voluptate qui ut, dolorum nihil!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/conversivel.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-car-front-fill"></i>
+                            Esportivo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam quidem voluptates
+                            accusantium, delectus dolores deserunt sed. Veritatis suscipit iure dignissimos molestias,
+                            cum eaque nisi voluptate qui ut, dolorum nihil!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Ram.jpg" height="277px" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-car-front-fill"></i>
+                            Off-Road
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime aperiam quidem voluptates
+                            accusantium, delectus dolores deserunt sed. Veritatis suscipit iure dignissimos molestias,
+                            cum eaque nisi voluptate qui ut, dolorum nihil!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="frota" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossa <span class="text-colored">frota</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column  nav-frota">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#esportivo-de-luxo"
+                                class="fw-bold text-start nav-link text-colored active">Esportivos de luxo
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suv"
+                                class="fw-bold text-start nav-link text-colored">SUV's
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#popular"
+                                class="fw-bold text-start nav-link text-colored">Popular</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#van"
+                                class="fw-bold text-start nav-link text-colored">Vans</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="esportivo-de-luxo">
+                                <div classs="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/lamborghini.jpeg"
+                                            alt="foto lamborghini" />
+                                        <h5 class="text-colored fw-bold mt-2">Lamborghini</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suv">
+                                <div classs="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/compas.png" alt="compas" />
+                                        <h5 class="text-colored fw-bold mt-2">SUV's</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="popular">
+                                <div classs="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/images.jpeg" alt="Carro popular" />
+                                        <h5 class="text-colored fw-bold mt-2">Popular</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="van">
+                                <div classs="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/van.png" alt="Van" />
+
+                                        <h5 class="text-colored fw-bold mt-2">Vans</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
+                                    (opcional)</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereco
+                            </h3>
+                            <p>
+                                Rua XV de Junho nº 200, Bairro Centro - Sao Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
